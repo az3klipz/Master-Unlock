@@ -27,3 +27,14 @@ A premium SaaS tool for Threads power users. Unlock your growth potential with a
    ```
 
 3. Open [http://localhost:3000](http://localhost:3000) with your browser.
+
+## Deployment
+
+To deploy this project:
+1. Push to GitHub.
+2. Import to Vercel.
+3. **CRITICAL**: Add the following Environment Variables in Vercel Settings:
+   - `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
+   - `CLERK_SECRET_KEY`
+   - `NEXT_PUBLIC_CLERK_SIGN_IN_URL`
+   - `NEXT_PUBLIC_CLERK_SIGN_UP_URL`
